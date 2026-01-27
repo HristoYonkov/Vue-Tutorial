@@ -1,0 +1,8 @@
+onBeforeMount - called before mounting begins
+onMounted - called when component is onMounted
+onBeforeUpdate - called when reactive data changes and before re-render
+onUpdated - called after re-render
+onBeforeUnmount - called before the Vue instance is destroyed
+onUnmount - called after the instance is destroyed
+onActivated - called when a kept-alive component is deactivated
+onErrorCaptured - called when an error is captured from a child component

@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* Конфигурация на шрифта */
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  /* Конфигурация на Grid-а */
+  /* В v4 името --grid-template-columns-70-30 създава клас grid-cols-70-30 */
+  --grid-template-columns-70-30: 70% 28%;
+}
+@layer base {
+  button {
+    cursor: pointer;
+  }
+}
