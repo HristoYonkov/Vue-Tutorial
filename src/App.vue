@@ -1,6 +1,6 @@
 <script setup>
 // import VueJsCrashCourse from './components/tutorialFiles/VueJsCrashCourse.vue';
-import Navbar from './components/ExampleApp/Navbar.vue';
+import Navbar from './components/Navbar.vue';
 import { RouterView } from 'vue-router';
 </script>
 

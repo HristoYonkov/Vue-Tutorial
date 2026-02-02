@@ -1,8 +1,12 @@
 <!-- <script lang="ts"> -->
 <script setup>
 // Composition API approach
-import { ref, onMounted } from 'vue'; // "ref" is simmilar to the react useState() method
+import { ref, reactive, onMounted } from 'vue'; // "ref" is simmilar to the react useState() method
+// reactive() onlytakes objects. it does not take primitives like strings, numbers and booleans.
+// It uses ref() under the hood.
 
+// ref() can take objects or primitives.
+// ref() has a `.value` property for reassigning, `reactive()` doesn't use `.value` and cant be reassigned.
 const name = ref('Hristo Yonkov');
 const status = ref('pending');
 const tasks = ref(['one', 'two', 'three']);
